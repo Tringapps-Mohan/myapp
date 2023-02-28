@@ -1,0 +1,8 @@
+.cards-container{
+    display: grid;
+    grid-template-areas: "a b c d";
+}
+
+.cards-container > div{
+    grid-area: "a";
+}
